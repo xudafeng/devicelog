@@ -1,6 +1,6 @@
 {
   "name": "devicelog",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node.js wrapper for device log",
   "keywords": [
     "iOS",
@@ -11,6 +11,9 @@
     "url": "git://github.com/macacajs/devicelog.git"
   },
   "main": "index.js",
+  "scripts": {
+    "preinstall": "xcodebuild"
+  },
   "dependencies": {
   },
   "devDependencies": {

@@ -36,7 +36,5 @@ Makefile
 .jshintignore
 coverage/
 logs/
-build/Release/*.dSYM
-devicelog.build
-*.xcodeproj
+build
 test/
