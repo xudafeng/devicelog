@@ -1,7 +1,7 @@
 {
   "name": "devicelog",
   "version": "1.0.1",
-  "description": "device log",
+  "description": "Node.js wrapper for device log",
   "keywords": [
     "iOS",
     "device"
