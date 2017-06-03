@@ -2,17 +2,19 @@ git_version = $$(git branch 2>/dev/null | sed -e '/^[^*]/d'-e's/* \(.*\)/\1/')
 npm_bin= $$(npm bin)
 
 all: install
+clean:
+	rm -rf ./build
 build:
-	xcodebuild -project ./devicelog.xcodeproj
+	xcodebuild
 install:
 	@npm install
-test: build
+test:
 	@node --harmony \
 		${npm_bin}/istanbul cover ${npm_bin}/_mocha \
 		-- \
 		--timeout 100000 \
 		--require co-mocha
-travis: install build
+travis: install
 	@NODE_ENV=test $(BIN) $(FLAGS) \
 		./node_modules/.bin/istanbul cover \
 		./node_modules/.bin/_mocha \
