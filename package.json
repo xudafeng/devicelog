@@ -1,0 +1,26 @@
+{
+  "name": "devicelog",
+  "version": "1.0.1",
+  "description": "device log",
+  "keywords": [
+    "iOS",
+    "device"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/macacajs/devicelog.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "co-mocha": "*",
+    "istanbul": "*",
+    "jshint": "*",
+    "macaca-utils": "^0.1.8",
+    "mocha": "*",
+    "pre-commit": "1.1.1",
+    "should": "*"
+  },
+  "license": "MIT"
+}
