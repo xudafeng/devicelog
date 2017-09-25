@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		632657981EE2815900367B75 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 632657971EE2815900367B75 /* main.c */; };
-		632657A11EE2823B00367B75 /* MobileDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632657A01EE2823B00367B75 /* MobileDevice.framework */; };
+		7F46F4E01F78D98800F48795 /* MobileDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F46F4DF1F78D95C00F48795 /* MobileDevice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +27,7 @@
 		632657941EE2815900367B75 /* devicelog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = devicelog; sourceTree = BUILT_PRODUCTS_DIR; };
 		632657971EE2815900367B75 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		6326579E1EE281DC00367B75 /* MobileDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileDevice.h; sourceTree = "<group>"; };
-		632657A01EE2823B00367B75 /* MobileDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileDevice.framework; path = ../../../../../System/Library/PrivateFrameworks/MobileDevice.framework; sourceTree = "<group>"; };
+		7F46F4DF1F78D95C00F48795 /* MobileDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileDevice.framework; path = ../../../../../System/Library/PrivateFrameworks/MobileDevice.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				632657A11EE2823B00367B75 /* MobileDevice.framework in Frameworks */,
+				7F46F4E01F78D98800F48795 /* MobileDevice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +71,7 @@
 		6326579F1EE2823B00367B75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				632657A01EE2823B00367B75 /* MobileDevice.framework */,
+				7F46F4DF1F78D95C00F48795 /* MobileDevice.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -235,6 +235,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -246,6 +247,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -270,6 +272,7 @@
 				6326579D1EE2815900367B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
