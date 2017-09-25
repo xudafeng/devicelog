@@ -83,6 +83,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6326579B1EE2815900367B75 /* Build configuration list for PBXNativeTarget "devicelog" */;
 			buildPhases = (
+				7F46F4E11F78E4BE00F48795 /* ShellScript */,
 				632657901EE2815900367B75 /* Sources */,
 				632657911EE2815900367B75 /* Frameworks */,
 				632657921EE2815900367B75 /* CopyFiles */,
@@ -127,6 +128,22 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F46F4E11F78E4BE00F48795 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\nif [ -e ${PROJECT_DIR}/MobileDevice.framework ]; then\n    rm ${PROJECT_DIR}/MobileDevice.framework\nfi\nln -s /System/Library/PrivateFrameworks/MobileDevice.framework ${PROJECT_DIR}/MobileDevice.framework\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		632657901EE2815900367B75 /* Sources */ = {
