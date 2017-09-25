@@ -24,7 +24,6 @@ Cartfile.resolved
 UserInterfaceState.xcuserstate
 Cartfile
 XCTestWD/build
-*.un~
 coverage.html
 lib-cov/
 node_modules
@@ -38,3 +37,5 @@ coverage/
 logs/
 build
 test/
+*.un~
+*.sw*

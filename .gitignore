@@ -24,9 +24,6 @@ logs/
 Carthage/
 Cartfile.resolved
 UserInterfaceState.xcuserstate
-.*.sw[a-z]
-.sw?
-*.un~
 .DS_Store
 node_modules
 npm-debug.log
@@ -35,4 +32,6 @@ Thumbs.db
 coverage/
 .project
 logs/
+.*.sw*
+*.sw*
 *.un~
