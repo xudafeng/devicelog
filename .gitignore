@@ -35,3 +35,4 @@ logs/
 .*.sw*
 *.sw*
 *.un~
+MobileDevice.framework
