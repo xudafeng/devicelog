@@ -1,6 +1,6 @@
 {
   "name": "devicelog",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node.js wrapper for device log",
   "keywords": [
     "iOS",
@@ -22,7 +22,7 @@
     "jshint": "*",
     "macaca-utils": "^0.1.8",
     "mocha": "*",
-    "pre-commit": "1.1.1",
+    "pre-commit": "*",
     "should": "*"
   },
   "license": "MIT"
