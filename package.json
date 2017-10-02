@@ -12,10 +12,14 @@
   },
   "main": "index.js",
   "scripts": {
+    "lint": "jshint .",
     "preinstall": "xcodebuild"
   },
   "dependencies": {
   },
+  "pre-commit": [
+    "lint"
+  ],
   "devDependencies": {
     "co-mocha": "*",
     "istanbul": "*",
