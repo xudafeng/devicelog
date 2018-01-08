@@ -1,6 +1,6 @@
 {
   "name": "devicelog",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Node.js wrapper for device log",
   "keywords": [
     "iOS",
@@ -13,7 +13,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "jshint .",
-    "preinstall": "node ./scripts/build.js",
+    "install": "node ./scripts/build.js",
     "test": "istanbul cover `npm bin`/_mocha",
     "ci": "npm run lint && npm run test"
   },
