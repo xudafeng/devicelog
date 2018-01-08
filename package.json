@@ -1,6 +1,6 @@
 {
   "name": "devicelog",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Node.js wrapper for device log",
   "keywords": [
     "iOS",
@@ -13,9 +13,12 @@
   "main": "index.js",
   "scripts": {
     "lint": "jshint .",
-    "preinstall": "xcodebuild"
+    "preinstall": "node ./scripts/build.js",
+    "test": "istanbul cover `npm bin`/_mocha",
+    "ci": "npm run lint && npm run test"
   },
   "dependencies": {
+    "macaca-utils": "^1.0.1"
   },
   "pre-commit": [
     "lint"
@@ -24,10 +27,8 @@
     "co-mocha": "*",
     "istanbul": "*",
     "jshint": "*",
-    "macaca-utils": "^0.1.8",
     "mocha": "*",
-    "pre-commit": "*",
-    "should": "*"
+    "pre-commit": "*"
   },
   "license": "MIT"
 }
