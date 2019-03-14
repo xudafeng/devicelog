@@ -14,23 +14,23 @@
   "scripts": {
     "lint": "jshint .",
     "install": "node ./scripts/build.js",
-    "test": "istanbul cover `npm bin`/_mocha",
-    "ci": "npm run lint && npm run test",
+    "test": "nyc --reporter=lcov --reporter=text mocha",
     "contributor": "git-contributor"
   },
   "dependencies": {
     "macaca-utils": "^1.0.1"
   },
-  "pre-commit": [
-    "lint"
-  ],
   "devDependencies": {
     "co-mocha": "*",
     "git-contributor": "^1.0.3",
-    "istanbul": "*",
+    "husky": "^1.3.1",
     "jshint": "*",
-    "mocha": "*",
-    "pre-commit": "*"
+    "mocha": "*"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
   },
   "license": "MIT"
 }

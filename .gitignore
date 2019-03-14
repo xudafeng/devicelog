@@ -14,22 +14,19 @@ build/
 xcuserdata
 profile
 *.moved-aside
-DerivedData
 .idea/
 # Normal
 .project
 .settings
 node_modules/
 logs/
-Carthage/
-Cartfile.resolved
-UserInterfaceState.xcuserstate
 .DS_Store
 node_modules
 npm-debug.log
 .idea/*
 Thumbs.db
 coverage/
+.nyc_output
 .project
 logs/
 .*.sw*

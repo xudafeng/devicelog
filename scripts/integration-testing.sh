@@ -6,4 +6,6 @@ nvm install 8
 
 npm i
 
-npm run ci
+npm run lint
+
+npm run test
