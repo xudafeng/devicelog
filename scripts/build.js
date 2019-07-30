@@ -8,7 +8,7 @@ if (_.platform.isOSX) {
     cwd: process.cwd(),
     stdio: [
       'inherit',
-      'inherit',
+      'ignore',
       'inherit'
     ]
   });
