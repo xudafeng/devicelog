@@ -4,12 +4,12 @@
 [![Test coverage][coveralls-image]][coveralls-url]
 [![node version][node-image]][node-url]
 [![npm download][download-image]][download-url]
-[![CircleCI](https://circleci.com/gh/macacajs/devicelog.svg?style=svg)](https://circleci.com/gh/macacajs/devicelog)
+[![CircleCI](https://circleci.com/gh/xudafeng/devicelog.svg?style=svg)](https://circleci.com/gh/xudafeng/devicelog)
 
 [npm-image]: https://img.shields.io/npm/v/devicelog.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/devicelog
-[coveralls-image]: https://img.shields.io/coveralls/macacajs/devicelog.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/macacajs/devicelog?branch=master
+[coveralls-image]: https://img.shields.io/coveralls/xudafeng/devicelog.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/xudafeng/devicelog?branch=master
 [node-image]: https://img.shields.io/badge/node.js-%3E=_8-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
 [download-image]: https://img.shields.io/npm/dm/devicelog.svg?style=flat-square

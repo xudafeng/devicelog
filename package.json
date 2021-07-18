@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/macacajs/devicelog.git"
+    "url": "git://github.com/xudafeng/devicelog.git"
   },
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "co-mocha": "*",
-    "git-contributor": "^1.0.3",
+    "git-contributor": "1",
     "husky": "^1.3.1",
     "jshint": "*",
     "mocha": "*",
